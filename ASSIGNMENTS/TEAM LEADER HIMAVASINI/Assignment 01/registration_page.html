@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Registration Form
+        </title>
+       <style>
+            *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.container{
+    width: 40%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    background-color: rgb(243, 248, 169);
+    width: 65%;
+    padding-left: 60px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 0px;
+    box-shadow: 10px 10px 20px rgba(250, 247, 207, 0.24), -10px -10px 20px rgba(111, 110, 110, 0.322);
+    border-top: 10px solid#fdfa3b;
+}
+form h1{
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+.divcontainer{
+    border: 1px solid rgba(0, 0, 0, 0.645);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+    padding: 4px 10px;
+}
+.divcontainer input{
+    width: 85%;
+    height: 99%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding: 4px 10px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+}
+.checkbox{
+    border: none;
+}
+.divcontainer select{
+    width: 100%;
+    padding: 10px;
+}
+.select{
+    padding: 0;
+    border: none;
+}
+select{
+    font-size: 16px;
+}
+select option{
+    font-size: 15px;
+}
+.gender{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+}
+.genderbox{
+    border: none;
+    margin-left: -18px;
+}
+.gender input{
+    margin-right: 3px;
+}
+            </style>
+    </head>
+    <body>
+        <div class="container">
+            <form>
+                <h1>Registration Form</h1>
+                <div claas="divcontainer">
+                    <input type="name" name="" id="" placeholder="Enter Name" />
+                </div>
+                <div claas="divcontainer">
+                    <input type="email" name="" id="" placeholder="Enter Email" />
+                </div>
+                <div claas="divcontainer">
+                    <input type="mobile" name="" id="" placeholder="Enter Mobile" />
+                </div>
+                <div claas="divcontainer">
+                    <input type="city" name="" id="" placeholder="Enter City" />
+                </div>
+                <div claas="divcontainer">
+                    <input type="state" name="" id="" placeholder="Enter State" />
+                </div>
+                <div class="divcontainer select">
+                    <select>
+                        <option>Select a Country</option>
+                        <option>Afghanistan</option>
+                        <option>Argentina</option>
+                        <option>Brazil</option>
+                        <option>Cuba</option>
+                        <option>Denmark</option>
+                        <option>Ethiopia</option>
+                        <option>France</option>
+                        <option>Germany</option>
+                        <option>Hungary</option>
+                        <option>India</option>
+                    </select>
+                </div>
+                <div class="divcontainer genderbox">
+                    <div class="gender" id="male">
+                        <input type="radio" name="gender" id="male" />
+                        <label for="male">Male</label>
+                    </div>
+                    <div class="gender" id="female">
+                        <input type="radio" name="gender" id="female" />
+                        <label for="female">Female</label>
+                    </div>
+                </div>
+                <div class="divcontainer">
+                    <input type="password" name="" id="" placeholder="Enter password" />
+                </div>
+                <div class="divcontainer">
+                    <input type="password" name="" id="" placeholder="Re-Enter password" />
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
